@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Їжа</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <h1>Їжа</h1>
+    <form id="food-form">
+        <label for="food">Назва їжі:</label>
+        <input type="text" id="food" required>
+        <label for="cost">Сума:</label>
+        <input type="number" id="cost" required>
+        <button type="submit">Додати</button>
+    </form>
+    <button onclick="navigateBack()">Назад</button>
+    <ul id="food-list"></ul>
+    <script src="../scripts/їжа.js"></script>
+</body>
+</html>

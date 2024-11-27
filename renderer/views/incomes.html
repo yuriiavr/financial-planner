@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доходи</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <h1>Дохід</h1>
+    <form id="income-form">
+        <label for="source">Джерело доходу:</label>
+        <input type="text" id="source" required>
+        <label for="amount">Сума:</label>
+        <input type="number" id="amount" required>
+        <label for="tax">Податок/Комісія (%):</label>
+        <input type="number" id="tax" value="0" required>
+        <button type="submit">Додати</button>
+    </form>
+    <button onclick="navigateBack()">Назад</button>
+    <ul id="income-list"></ul>
+    <script src="../scripts/доходи.js"></script>
+</body>
+</html>
