@@ -1,0 +1,12 @@
+додати валюту та її переведення в грн
+
+  const clearStorageOnLaunch = async () => {
+    try {
+      await AsyncStorage.clear();
+      console.log('AsyncStorage очищено при запуску');
+    } catch (e) {
+      console.error('Помилка очищення AsyncStorage:', e);
+    }
+  };
+
+  clearStorageOnLaunch();
