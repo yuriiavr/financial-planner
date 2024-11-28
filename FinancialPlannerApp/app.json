@@ -4,7 +4,7 @@
     "slug": "financial-planner",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/appstore.png",
+    "icon": "./assets/images/appstore.png",
     "scheme": "myapp",
     "ios": {
       "bundleIdentifier": "com.mycompany.financialplannerapp",
@@ -13,12 +13,12 @@
     "android": {
       "package": "com.mycompany.financialplannerapp",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/playstore.png",
+        "foregroundImage": "./assets/images/playstore.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
       "expo-router",
